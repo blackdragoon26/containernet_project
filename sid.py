@@ -29,7 +29,6 @@ class PartitionedDecisionTree:
         return partitions, node_depths
 
     def evaluate(self, X_sample):
-        """Evaluate X_sample across partitions sequentially."""
         current_node = 0
         for pid in sorted(self.partitions.keys()):
             print(f"\nProcessing Partition {pid}")
