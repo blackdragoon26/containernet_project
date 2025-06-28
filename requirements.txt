@@ -1,0 +1,5 @@
+flask
+requests
+numpy
+scikit-learn==1.7.0
+#there might me more packages, since I was working on other environment too
